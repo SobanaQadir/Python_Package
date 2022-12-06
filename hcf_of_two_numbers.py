@@ -13,5 +13,5 @@ def calculate_GCD(a, b):
     if(b == 0):
         return abs(a)
     else:
-        return GCD(b, a % b)
+        return calculate_GCD(b, a % b)
 
