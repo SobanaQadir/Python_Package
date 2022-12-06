@@ -9,7 +9,7 @@ def calculate_hcf(x, y):
             hcf = i  
     return hcf
 
-def GCD(a, b):
+def calculate_GCD(a, b):
     if(b == 0):
         return abs(a)
     else:
