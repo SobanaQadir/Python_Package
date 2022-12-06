@@ -4,7 +4,7 @@ def Mean(n_num):
     mean = get_sum / n
     print("Mean / Average is: " + str(mean))
 
-def median(n_num):
+def Median(n_num):
     n = len(n_num)
     n_num.sort()
   
